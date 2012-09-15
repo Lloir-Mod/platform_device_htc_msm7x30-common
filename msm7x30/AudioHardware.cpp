@@ -106,17 +106,24 @@ static const uint32_t SND_DEVICE_TTY_HCO = 12;
 static const uint32_t SND_DEVICE_TTY_VCO = 13;
 static const uint32_t SND_DEVICE_TTY_FULL = 14;
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const uint32_t SND_DEVICE_CARKIT = -1;
 =======
 >>>>>>> 962c2e7... audio/msm7x30: Merge with CAF
+=======
+>>>>>>> 7471863... audio/msm7x30: Merge with CAF
 static const uint32_t SND_DEVICE_HDMI = 15;
 static const uint32_t SND_DEVICE_FM_TX = 16;
 static const uint32_t SND_DEVICE_FM_TX_AND_SPEAKER = 17;
 static const uint32_t SND_DEVICE_HEADPHONE_AND_SPEAKER = 18;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 static const uint32_t SND_DEVICE_CARKIT = 19;
 >>>>>>> 962c2e7... audio/msm7x30: Merge with CAF
+=======
+static const uint32_t SND_DEVICE_CARKIT = 19;
+>>>>>>> 7471863... audio/msm7x30: Merge with CAF
 static const uint32_t SND_DEVICE_HANDSET_BACK_MIC = 20;
 static const uint32_t SND_DEVICE_SPEAKER_BACK_MIC = 21;
 static const uint32_t SND_DEVICE_NO_MIC_HEADSET_BACK_MIC = 28;
@@ -145,6 +152,7 @@ static const uint32_t DEVICE_DUALMIC_SPEAKER_TX = 10;  /* speaker_dual_mic_endfi
 static const uint32_t DEVICE_TTY_HEADSET_MONO_RX = 11; /* tty_headset_mono_rx */
 static const uint32_t DEVICE_TTY_HEADSET_MONO_TX = 12; /* tty_headset_mono_tx */
 <<<<<<< HEAD
+<<<<<<< HEAD
 static const uint32_t DEVICE_BT_SCO_RX = 17;           /* bt_sco_rx */
 static const uint32_t DEVICE_BT_SCO_TX = 18;           /* bt_sco_tx */
 static const uint32_t DEVICE_SPEAKER_HEADSET_RX = 13;  /* caf: headset_stereo_speaker_stereo_rx
@@ -154,6 +162,8 @@ static const uint32_t DEVICE_FMRADIO_STEREO_TX = 14;
 static const uint32_t DEVICE_HDMI_STERO_RX = 15;       /* hdmi_stereo_rx */
 static const uint32_t DEVICE_FMRADIO_STEREO_RX = 16;
 =======
+=======
+>>>>>>> 7471863... audio/msm7x30: Merge with CAF
 static const uint32_t DEVICE_SPEAKER_HEADSET_RX = 13;  /* caf: headset_stereo_speaker_stereo_rx
                                                           htc: headset_speaker_stereo_rx
                                                           sam: speaker_headset_rx */
@@ -162,7 +172,10 @@ static const uint32_t DEVICE_HDMI_STERO_RX = 15;       /* hdmi_stereo_rx */
 static const uint32_t DEVICE_FMRADIO_STEREO_RX = 16;
 static const uint32_t DEVICE_BT_SCO_RX = 17;           /* bt_sco_rx */
 static const uint32_t DEVICE_BT_SCO_TX = 18;           /* bt_sco_tx */
+<<<<<<< HEAD
 >>>>>>> 962c2e7... audio/msm7x30: Merge with CAF
+=======
+>>>>>>> 7471863... audio/msm7x30: Merge with CAF
 static const uint32_t DEVICE_COUNT = DEVICE_BT_SCO_TX +1;
 
 static bool support_aic3254 = true;
