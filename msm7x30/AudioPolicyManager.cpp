@@ -690,17 +690,23 @@ status_t AudioPolicyManager::checkAndSetVolume(int stream, int index, audio_io_h
             // offset value to reflect actual hardware volume that never reaches 0
             // 1% corresponds roughly to first step in VOICE_CALL stream volume setting (see AudioService.java)
 <<<<<<< HEAD
+<<<<<<< HEAD
             volume = 0.01 + 0.99 * volume;
             if (stream == AudioSystem::VOICE_CALL) {
                 voiceVolume = (float)index/(float)mStreams[stream].mIndexMax;
             } else if (stream == AudioSystem::BLUETOOTH_SCO) {
                voiceVolume = 1.0;
 =======
+=======
+>>>>>>> 962c2e7... audio/msm7x30: Merge with CAF
             if (stream == AudioSystem::VOICE_CALL) {
                 voiceVolume = (float)index/(float)mStreams[stream].mIndexMax;
             } else if (stream == AudioSystem::BLUETOOTH_SCO) {
                 voiceVolume = 1.0;
+<<<<<<< HEAD
 >>>>>>> c48571a... audio/msm7x30: Merge with CAF
+=======
+>>>>>>> 962c2e7... audio/msm7x30: Merge with CAF
             }
             if (voiceVolume >= 0 && output == mPrimaryOutput) {
                 mpClientInterface->setVoiceVolume(voiceVolume, delayMs);
